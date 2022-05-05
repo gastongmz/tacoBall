@@ -1,0 +1,150 @@
+/*FONTS*/
+
+h1{
+    font-family:krub;
+    font-weight: 400;
+    size: 24px;
+}
+h2{
+    font-family:krub;
+    font-weight: 400;
+    size: 18;
+}
+h3{
+    font-family:krub;
+    font-weight: 700;
+    size: 16px;
+}
+h4{
+    font-family:krub;
+    font-weight: 400;
+    size: 14px;
+}
+p{
+    font-family:krub;
+    font-weight: 400;
+    size: 14px;
+}
+
+
+/*COLORS*/
+
+.Primary-Bg{
+
+background: #003400;
+border-radius: 6px;
+}
+.Primary{
+
+background: #006414;
+border-radius: 6px;}
+
+.Secondary-Bg{
+
+background: #009929;
+border-radius: 6px;}
+
+
+.Secondary{
+
+background: #5CCB5F;
+border-radius: 6px;}
+
+.General{
+
+background: #98FF96;
+border-radius: 6px;}
+
+.Txt-ball{
+
+background: #D8540A;
+border-radius: 6px;}
+
+.bg-gris{
+
+background: #E3DFDF;
+border-radius: 6px;
+}
+
+
+/*TAGs*/
+header{
+
+    height: 90px;
+width: auto;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+background: #C4C4C4;
+}
+
+nav{
+    height: 60px;
+width: auto;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+background: #006414;
+align-items:flex-start;}
+
+footer{
+    background-color: C4C4C4;
+  position: absolute;
+  bottom: 0;
+  width: 99%;
+  height: 60px;
+ 
+background: #C4C4C4;
+text-align: center;
+}
+
+span{
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    size: 25px; 
+}
+
+/*Buttons*/
+.buttonActive{
+    height: 50px;
+width: 150px;
+left: 243px;
+top: 556px;
+border-radius: 10px;
+background: #5CCB5F;
+float:right;
+;
+
+}
+
+/*Clsese custom*/
+.logo{
+    size: 55px;
+    width: 220px;
+    height: 110px;
+    margin-top: 3px;
+    margin-left: 40px;
+}
+
+.cuadricula{
+    margin-right:auto;
+    width: 500px;
+    height: 400px;
+}
+
+.imgCuadricula{
+    
+    width: 360px;
+    height: 250px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.menu{
+
+}
+.imgMenu{
+   width: 500px;
+    height: 400px;
+}

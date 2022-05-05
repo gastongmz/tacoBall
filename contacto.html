@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Taco Ball</title>
+</head>
+<body>
+<header>
+ <img class="logo" src="img/logo.png"  onclick="window.location.href='index.html'"/>
+</header>
+<nav>
+    <button class="buttonActive" type="button"  onclick="window.location.href='contacto.html'">
+        <span class="navbar-toggler-icon">CONTACTO</span>
+      </button>
+      </button>
+      <button class="buttonActive" type="button" onclick="window.location.href='pedidos.html'">
+        <span class="navbar-toggler-icon">PEDIDOS</span>
+      </button>
+
+      <button class="buttonActive" type="button"  onclick="window.location.href='menu.html'">
+        <span class="navbar-toggler-icon">MENU</span>
+    <button class="buttonActive" type="button" onclick="window.location.href='index.html'">
+        <span class="navbar-toggler-icon">INICIO</span>
+      </button>
+</nav>
+<form action="/my-handling-form-page" method="post">
+  <ul>
+   <li>
+     <label for="name">Nombre:</label>
+     <input type="text" id="name" name="user_name">
+   </li>
+   <li>
+     <label for="mail">Correo electrónico:</label>
+     <input type="email" id="mail" name="user_mail">
+   </li>
+   <li>
+     <label for="msg">Mensaje:</label>
+     <textarea id="msg" name="user_message"></textarea>
+   </li>
+  </ul>
+  <button class="buttonActive" type="button"  onclick="javascript:alert('Su mensaje fue enviado.')">
+    <span class="navbar-toggler-icon">Enviar</span>
+  </button>
+ </form>
+    <footer>
+      <span>Social</span>
+      <span>Locales</span>
+      <span>Teminos</span>
+    </footer>
+</body>
+</html>
